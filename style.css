@@ -55,6 +55,10 @@ section{
     height: 80%;
     background-color:whitesmoke;
 }
+.single-experience:hover{
+    transform: scale(1.1);
+    transition:2s;
+}
 .area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
@@ -63,6 +67,10 @@ section{
 #for{
     border-left: 7px solid;
     border-image: linear-gradient(lightSalmon, tomato);
+}
+.link-button:hover{
+    color: black;
+    background-image:linear-gradient(45deg, green, red);
 }
 footer p{
     text-align: center;
